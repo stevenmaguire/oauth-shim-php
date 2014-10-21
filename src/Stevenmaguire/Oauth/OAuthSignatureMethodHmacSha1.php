@@ -8,7 +8,7 @@
  * character (ASCII code 38) even if empty.
  *   - Chapter 9.2 ("HMAC-SHA1")
  */
-class OAuthSignatureMethod_HMAC_SHA1 extends OAuthSignatureMethod
+class OAuthSignatureMethodHmacSha1 extends OAuthSignatureMethod
 {
     public function get_name()
     {

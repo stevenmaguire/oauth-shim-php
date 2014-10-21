@@ -6,7 +6,7 @@
  * over a secure channel such as HTTPS. It does not use the Signature Base String.
  *   - Chapter 9.4 ("PLAINTEXT")
  */
-class OAuthSignatureMethod_PLAINTEXT extends OAuthSignatureMethod
+class OAuthSignatureMethodPlaintext extends OAuthSignatureMethod
 {
     public function get_name()
     {
