@@ -1,0 +1,22 @@
+{
+    "name": "stevenmaguire/oauth-shim-php",
+    "description": "A php shim for Oauth dependancies",
+    "authors": [
+        {
+            "name": "Steven Maguire",
+            "email": "stevenmaguire@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap" : [
+            "tests/TestCase.php"
+        ],
+        "psr-0": {
+            "Stevenmaguire\\Oauth\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
