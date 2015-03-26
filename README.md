@@ -1,19 +1,6 @@
-OAuth Shim for PHP
+[Deprecated] OAuth Shim for PHP
 ==============
 
-I build projects that depend on OAuth and I wanted a convenient, open source way to include the handful of classes needed to power OAuth using composer.
-
-Installation
-------------
-
-Update your `composer.json` file to include:
-
-```php 
-  "require": {
-    ...
-    "stevenmaguire/oauth-shim-php": ">=0.0.1"
-    ...
-  }
-```
-  
-Run `composer update`
+- Consider using [OAuth 1.0 Client](https://github.com/thephpleague/oauth1-client) for OAuth 1.0 authentication and token access.
+- Consider using [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client) for OAuth 2.0 authentication and token access.
+- Consider using [Guzzle OAuth Subscriber](https://github.com/guzzle/oauth-subscriber) for OAuth 1.0 authentication and API access when tokens are provided/available.
